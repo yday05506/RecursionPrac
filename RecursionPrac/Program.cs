@@ -18,6 +18,9 @@ namespace RecursionPrac
             Console.WriteLine(fibo.Get(5));
             Console.WriteLine(fibo.Get(6));
             Console.WriteLine(fibo.Get(7));
+
+            FibonacciAdv fibonacciAdv = new FibonacciAdv();
+            Console.Write(fibonacciAdv.Get(50));
         }
     }
 }
